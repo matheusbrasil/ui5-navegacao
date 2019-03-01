@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="ovly.navegacao.controller.S1">
+	<Page title="S1">
+		<content>
+			<List itemPress="onItemPress">
+				<items>
+					<StandardListItem type="Active" title="A" description="AAA"/>
+					<StandardListItem type="Navigation" title="B" description="BBB"/>
+					<StandardListItem type="DetailAndActive" title="C" description="CCC"/>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<content>
+					<ToolbarSpacer/>
+					<Button press="onPressAdd" icon="sap-icon://add"/>
+				</content>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

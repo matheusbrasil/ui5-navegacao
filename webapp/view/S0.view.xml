@@ -1,0 +1,11 @@
+<mvc:View controllerName="ovly.navegacao.controller.S0" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<!--		<App id="root">
+			<pages></pages>
+		</App>-->
+		<SplitApp id="root">
+			<masterPages></masterPages>
+			<detailPages></detailPages>
+		</SplitApp>
+	</Shell>
+</mvc:View>

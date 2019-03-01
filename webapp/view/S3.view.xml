@@ -1,0 +1,4 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ovly.navegacao.controller.S3"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="S3" showNavButton="true" navButtonPress="onBack"></Page>
+</mvc:View>
